@@ -67,6 +67,8 @@
     font-family: PingFang SC;
     font-size: 14px;
     text-decoration:none;
+    display: inline-block; 
+    vertical-align: middle
   }
   .body{
     width:69.45%; 
