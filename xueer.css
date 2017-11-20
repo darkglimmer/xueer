@@ -21,6 +21,7 @@
     line-height: 28px;
     font-family: PingFang SC;
     color: rgb(234, 90, 112);
+    border-top:5px solid rgb(234, 90, 112);
     float: left;
     margin-top:26px;
     margin-right:4.82%;
@@ -67,6 +68,8 @@
     font-family: PingFang SC;
     font-size: 14px;
     text-decoration:none;
+    display: inline-block; 
+    vertical-align: middle;
   }
   .body{
     width:69.45%; 
@@ -80,6 +83,7 @@
   .course{
     height: 500px;
     background-color: white;
+    position: relative;
   }
   .list{
     width:9.6%;
