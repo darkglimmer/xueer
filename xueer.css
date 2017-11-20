@@ -72,12 +72,10 @@
   }
   .body{
     width:69.45%; 
-    margin-left: 15.15%;
-    text-align: center;
+    margin:0 auto;
   }
   .picture{
     height: 350px;
-    width:69.45%; 
   }
   .course{
     height: 500px;
