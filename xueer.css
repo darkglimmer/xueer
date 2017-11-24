@@ -7,155 +7,162 @@
     width: 100%;
     height: 80px;
     background-color: white;
+    margin: 0 auto;
+    text-align: center;
+    min-width: 1000px;
   }
   .logo{
+    display: inline-block;
+    vertical-align:text-bottom;
     width: 6.54%;
     height: 35px;
-    float: left;
-    margin-top:23px;
-    margin-left:15.15%;
+    padding-top:23px;
     margin-right:4.14%;
   }
   .homepage{
+    display: inline-block;
+    vertical-align: super;
     font-size: 20px;
-    line-height: 28px;
+    height: 50px;
+    padding-top: 25px;
     font-family: PingFang SC;
     color: rgb(234, 90, 112);
-    border-top:5px solid rgb(234, 90, 112);
-    float: left;
-    margin-top:26px;
-    margin-right:4.82%;
+    border-top: 5px solid rgb(234, 90, 112);
+    margin-right: 4.82%;
   }
   .classify{
+    display: inline-block;
+    vertical-align: super;
     font-size: 20px;
-    line-height: 28px;
     font-family: PingFang SC;
     color: #666666;
-    float: left;
-    margin-top:26px;
-    margin-right:7.99%;
+    margin-right: 7.99%;
   }
-  .search{
+  .input{ 
+    display: inline-block;
+    vertical-align:text-bottom;
+    width: 17%;
     height: 30px;
-    width: 22.52%;
-    margin-right: 8.27%;
-    float: left; 
-  }
-  .input{
-    width: 75%;
-    height: 30px;
-    border: 2px solid rgb(234, 90, 112);
-    margin-top: 23px;   
+    border: 2px solid rgb(234, 90, 112); 
   }
   .search_button{
-    width: 23.55%;
+    display: inline-block;
+    vertical-align:text-bottom;
+    width: 6.5%;
     height: 37px;
-    margin-top: -37px;
-    float:right;
-    background-color: rgb(234, 90, 112);
+    background-color: rgb(234, 90, 112); 
+    margin-right: 8.27%;
+    margin-left: -7px;
   }
   
   .login{
+    display: inline-block;
+    vertical-align: text-bottom;
     background-color: rgb(29, 192, 145);
-    width:6.20%;
     height: 30px;
-    float: left;
-    margin-top:25px;
     text-align: center;
+    
   }
   .login_button{
     color: white;
     font-family: PingFang SC;
     font-size: 14px;
-    text-decoration:none;
-    display: inline-block; 
+    text-decoration: none;
+    padding: 3px;
+    display: inline-block;
     vertical-align: middle;
-  }
-  .body{
-    width:69.45%; 
-    margin-left: 15.15%;
-    text-align: center;
   }
   .picture{
     height: 350px;
-    width:69.45%; 
+    width:100%; 
+    text-align: center;
+  }
+  .body{
+    width:1000px; 
+    margin:0 auto;
   }
   .course{
-    height: 500px;
+    width:100%;
+    height: 400px;
     background-color: white;
-    position: relative;
+  }
+  .border{
+    padding: 30px 95px;
   }
   .list{
-    width:9.6%;
-    height: 96px;
-    border-radius:48px;
+    width: 96px;
+    height: 96px; 
+    border-radius:50%;
     border: 2px solid #1DC091;
-    display:flex;
-    float: left;
-    margin-top: 50px;
-  }
-  .list p{
+    display: inline-block;
+    vertical-align: middle;
     font-family: PingFang SC;
     font-size: 36px;
-    color: #1DC091;
-    margin:auto;
+    line-height: 96px;
+    text-align: center;
+    color: #1DC091;    
   }
-  #first{
-    margin-left: 12%;
+  .first{
+    display: inline-block;
+    vertical-align: super;
+    width:165px;
+    border-right: 1px solid #eaeaea;
   }
-  #second{
-    margin-left: 12.6%;
-  }
-  #third{
-    margin-left: 12.6%;
-  }
-  #fourth{
-    margin-left: 12.6%;
-  }
-  
-  .dot_1{
-    float: left;
-    padding-top: 33px;
-    margin-left: 7.5%;
+  a:hover { 
+    color:red;
+  } 
+  .dot{
+    width:120px;
+    white-space:nowrap;
+    overflow:hidden;
+    text-overflow:ellipsis; 
+    margin-left:-40px; 
+    
   }
   .item_1{
-    float: left;
-    width: 112px;
     font-family: PingFang SC;
     font-size: 14px;
     text-decoration:none;
     color: #5c5c5c;
-    white-space:nowrap;
-    overflow:hidden;
-    text-overflow:ellipsis;
   }
   .name_1{
-    float: left;
     font-family: PingFang SC;
     font-size: 12px;
     text-decoration:none;
     color: #5c5c5c;
   }
-  
-  .dot_2{
-    float: left;
+  .second{
+    margin-left: 6%;
+    display: inline-block;
+    vertical-align: super;
+    width:165px;
+    border-right: 1px solid #eaeaea;
+  }
+  .third{
+    width: 165px;
+    margin-left: 6%;
+    display: inline-block;
+    vertical-align: super;
+    border-right: 1px solid #eaeaea;
+  }
+  .fourth{
+    margin-left: 6%;
+    display: inline-block;
+    vertical-align: super;
+    
+  }
+  .concrete{
+    text-align: center;
     padding-top: 33px;
-    margin-left: 8%;
   }
   
   .addition{
     height: 25px;
     width: 25px;
     margin-top: 30px;
-    margin-left: 38%;
-  } 
-  .line{
-    float: left;
-    margin-left:150%;
-    margin-top:-187px; 
+    margin-left: 30%;
   }
-  
-  .third{
+  .recommend{
     margin-top: 5px;
     height: 355px;
     background-color: white;
