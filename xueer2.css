@@ -16,37 +16,33 @@ body {
     width: 1000px;
     margin: 0 auto;
   }
-  .logo{
+  .alignment{
     display: inline-block;
-    vertical-align:text-bottom;
+    vertical-align:middle;    
+  }
+  .logo{
     width: 95px;
     height: 35px;
-    padding-top:23px;
     margin-left: 5px;
     margin-right:55px;
   }
   .homepage{
-    display: inline-block;
-    vertical-align: super;
+    box-sizing: border-box;
+    padding: 20px 0;
     font-size: 20px;
-    height: 50px;
-    padding-top: 25px;
+    height: 80px;
     font-family: PingFang SC;
     color: rgb(234, 90, 112);
     border-top: 5px solid rgb(234, 90, 112);
-    margin-right:70px;
+    margin-right: 70px;
   }
   .classify{
-    display: inline-block;
-    vertical-align: super;
     font-size: 20px;
     font-family: PingFang SC;
     color: #666666;
     margin-right: 116px;
   }
   .search{
-    display: inline-block;
-    vertical-align:super;
     height: 30px;
     margin-right: 90px;
     font-size: 0;
@@ -60,13 +56,9 @@ body {
     width:80px;
     background-color: rgb(234, 90, 112); 
     height: 38px;
-    display: inline-block;
-    vertical-align:bottom;
   }
   
   .login{
-    display: inline-block;
-    vertical-align: super;
     background-color: rgb(29, 192, 145);
     height: 30px;
     text-align: center;
@@ -77,10 +69,10 @@ body {
     font-size: 14px;
     text-decoration: none;
     display: inline-block;
-    vertical-align: middle;
     width: 90px;
+    padding: 5px 0;
   }
-  .body{
+  .middle{
     margin:0 auto;
     margin-top: 2px;
     width: 1000px;
@@ -97,7 +89,6 @@ body {
     padding: 41px 44px 40px 78px;
     box-sizing: border-box;
     display: inline-block;
-    vertical-align: bottom;
   }
   #course_2{
     display: inline-block; 
@@ -202,7 +193,9 @@ body {
   }
   .text{
     text-align: center;
-    padding: 40px 40px 30px 40px;
+    height: 155px;
+    padding: 35px;
+    box-sizing: border-box;
   }
   .by{
     font-size: 18px;
@@ -218,10 +211,12 @@ body {
     font-weight: lighter;
   }
   .add{
-    padding: 25px 76px 29px 77px;
+    height: 90px;
     background-color: #F5A623;
     font-size: 36px;
     color: white;
+    text-align: center;
+    line-height: 90px;
   }
   .comments{
       width: 800px;
@@ -252,14 +247,14 @@ body {
     font-family: PingFang SC;
     font-size: 18px;
     color: #1DC091;
+    vertical-align:middle;
   }
   .tip{
     font-family: PingFang SC;
     font-size: 11px;
     color: white;
     background-color: rgb(234, 90, 112);
-    display: inline-block;
-    vertical-align:middle;
+    
   }
   .sentence{
     font-family: PingFang SC;
@@ -267,9 +262,7 @@ body {
     margin-top: 15px;
   }
   .note{
-    margin-left: 410px;
-    margin-top: 12px;
-    margin-bottom: 15px;
+    margin: 12px 0 15px 410px;
   }
   .agree{
     font-family: PingFang SC;
@@ -328,6 +321,7 @@ body {
   .submit{
       margin-left: 70px;
       margin-top: 20px;
+      text-align: center;
   }
   .writedown{
     width: 608px;
@@ -345,30 +339,28 @@ body {
     font-size: 14px;
     color: #1DC091;
     font-weight: lighter;
+    width: 170px;
   }
   .pags{
-      margin-top: 5px;
-      margin-right: 10px;
-      color: white;
-      font-weight: lighter;
+    width: 180px;
+    margin-top: 5px;
+    margin-right: 10px;
+    color: white;
+    font-weight: lighter;
   }
   .pag{
-      background-color: #cdcdcd;
-      font-size: 14px;
-      padding: 3px 14px;
-      text-align: center;
-      display: inline-block;
-      vertical-align: top;
+    background-color: #cdcdcd;
+    font-size: 14px;
+    padding: 3px 14px;
+    text-align: center;
   }
   .publish{
     width: 100px;
-    line-height: 30px;
+    height: 30px;
     color: #FFFFFF;
     font-size: 14px;
-    text-align: center;
     margin-top: 58px;
     background: #1dc091;
-    margin-left: 250px;
   }
   .main{
     min-height:100%;
